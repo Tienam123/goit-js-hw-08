@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://github.com/Tienam123/practice-parcel/",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html --no-cache",
     "build": "parcel build src/*.html --public-url /practice-parcel/"
   },
   "repository": {
@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "colors.json": "^2.0.0",
-    "lodash.throttle": "^4.1.1",
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "simplelightbox": "^2.14.2"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
