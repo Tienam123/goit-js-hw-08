@@ -1,47 +1,60 @@
-import {galleryItems} from './gallery-items.js';
+import { galleryItems } from './gallery-items.js';
 // Change code below this line
-const gallery = document.querySelector( '.gallery' );
-const markup = gallery.insertAdjacentHTML( 'afterbegin', createMarkup( galleryItems ) );
-const instance = basicLightbox.create( `
-    <img src="" width="800" height="600">
-`, {closable: false} );
-gallery.addEventListener( 'click', onCardOpen );
+const gallery = document.querySelector('.gallery');
+const markup = gallery.insertAdjacentHTML('afterbegin',
+  createMarkup(galleryItems));
+const instance = basicLightbox.create(`
+    <img src='' width='800' height='600'>
+`, {
+  closable: false,
+  onShow: (instance) => {
+    instance.element().addEventListener('click', onCardCloseClick);
+    window.addEventListener('keydown', onPressButton);
+  },
+});
 
-function createMarkup( array ) {
-	return array.map( ( {original, preview, description} = element ) => {
-		return `<li class="gallery__item">
-  <a class="gallery__link" href="${original}">
+// Делегируем события клика
+gallery.addEventListener('click', onCardOpen);
+
+// Создание разметки
+function createMarkup(array) {
+  return array.map(({ original, preview, description } = element) => {
+    return `<li class='gallery__item'>
+  <a class='gallery__link' href='${original}'>
     <img
-      class="gallery__image"
-      src="${preview}"
-      data-source="${original}"
-      alt="${description}"
+      class='gallery__image'
+      src='${preview}'
+      data-source='${original}'
+      alt='${description}'
     />
   </a>
 </li>`;
-	} ).join( '' );
+  }).join('');
 }
 
-function onCardOpen( e ) {
-	e.preventDefault();
-	instance.show( () => {
-		instance.element().querySelector( 'img' ).src = '';
-		instance.element().querySelector( 'img' ).src = e.target.dataset.source;
-		instance.element().classList.add( 'modal' );
-		const modal = document.querySelector( '.modal' );
-		modal.addEventListener( 'click', onCardCloseClick );
-		window.addEventListener( 'keydown', onPressButton );
-	} );
+// Функция открытия модалки
+function onCardOpen(e) {
+  if (e.target === this) {
+    return;
+  }
+  e.preventDefault();
+  instance.show(() => {
+    instance.element().querySelector('img').src = '';
+    instance.element().querySelector('img').src = e.target.dataset.source;
+  });
 }
 
-function onCardCloseClick( e ) {
-	instance.close();
+// Функция скрытия модалки
+function onCardCloseClick(e) {
+  instance.close();
+  removeEventListener('click', onCardCloseClick);
 }
 
-function onPressButton( e ) {
-	if ( e.key === 'Escape' ) {
-		instance.close();
-		window.removeEventListener( 'keydown', onPressButton );
-	}
+// Закрытие модалки по Esc
+function onPressButton(e) {
 
+  if (e.code === 'Escape') {
+    instance.close();
+    removeEventListener('keydown', onPressButton);
+  }
 }
