@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://github.com/Tienam123/practice-parcel/",
   "scripts": {
-    "start": "parcel src/*.html --no-cache",
+    "start": "parcel src/*.html --no-cache --no-source-maps",
     "build": "parcel build src/*.html --public-url /practice-parcel/"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "parcel": "^2.6.0",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-reporter-clean-dist": "^1.0.4",
+    "parcel-transformer-hbs": "^1.0.4",
     "posthtml-include": "^1.7.4",
     "sass": "^1.69.4"
   },

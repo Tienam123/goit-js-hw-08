@@ -1,11 +1,13 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
-// Change code below this line
+import 'simplelightbox/dist/simple-lightbox.min.css';
+import SimpleLightbox from 'simplelightbox';
+import color from '../templates/galleryCard.hbs';
+
 
 // Change code below this line
 const gallery = document.querySelector('.gallery');
-const markup = gallery.insertAdjacentHTML('afterbegin',
-  createMarkup(galleryItems));
+gallery.insertAdjacentHTML('afterbegin',createMarkup(galleryItems));
 
 //Создание галереи
 const lightbox = new SimpleLightbox('.gallery a', {
@@ -17,15 +19,5 @@ const lightbox = new SimpleLightbox('.gallery a', {
 
 // Создание разметки
 function createMarkup(array) {
-  return array.map(({ original, preview, description } = element) => {
-    return `<li class='gallery__item'>
-  <a class='gallery__link' href='${original}'>
-    <img
-      class='gallery__image'
-      src='${preview}'
-      alt='${description}'
-    />
-  </a>
-</li>`;
-  }).join('');
+return color({array})
 }
