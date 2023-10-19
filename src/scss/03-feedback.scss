@@ -3,8 +3,9 @@
   flex-direction: column;
   max-width: 480px;
   padding: 12px;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  border: 1px solid teal;
+  color: teal;
   border-radius: 4px;
 }
 
@@ -18,12 +19,17 @@
   padding: 8px 12px;
   font: inherit;
   cursor: pointer;
+  background-color: teal;
+  color: #ffffff;
+  border-radius: 4px;
 }
 
 input,
 textarea {
   padding: 8px;
   font: inherit;
+  border: 1px solid teal;
+  border-radius: 4px;
 }
 
 textarea {

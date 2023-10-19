@@ -132,5 +132,16 @@ body {
 @import "common";
 
 // Подключение стилей отдельных блоков
-
+.button-back {
+  padding: 10px 20px;
+  background-color: teal;
+  color: #ffffff;
+  border-radius: 4px;
+}
+ul li a.button-back {
+    width: 120px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 20px;
+}
 // Подключение стилей отдельных страниц
