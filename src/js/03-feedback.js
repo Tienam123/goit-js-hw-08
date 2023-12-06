@@ -26,7 +26,6 @@ function onSubmitForm(e) {
   console.log(myFormData.get('message'));
   form.reset();
   localStorage.clear();
-  console.log(localStorage.getItem(FORM_DATA_KEY));
 }
 
 function onChangeInput(e) {
