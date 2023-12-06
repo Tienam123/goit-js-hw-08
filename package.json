@@ -1,15 +1,15 @@
 {
-  "name": "practice-parcel",
+  "name": "go-it-hw-08",
   "version": "2.0.0",
-  "description": "",
-  "homepage": "https://github.com/Tienam123/practice-parcel/",
+  "description": "Домашнее задание №8",
+  "homepage": "https://github.com/Tienam123/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html --no-cache --no-source-maps",
-    "build": "parcel build src/*.html --public-url /practice-parcel/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tienam123/practice-parcel.git"
+    "url": "git+https://github.com/Tienam123/goit-js-hw-08.git"
   },
   "keywords": [],
   "author": "Vladyslav Honchar <dr.tienam123@gmail.com>",
