@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"chmSq":[function(require,module,exports) {
+})({"6kc6j":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "42036d7a98ade5a7";
-module.bundle.HMR_BUNDLE_ID = "ee5b4658468c551c";
+module.bundle.HMR_BUNDLE_ID = "da390bba5400a658";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -574,7 +574,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"b9BDZ":[function(require,module,exports) {
+},{}],"1uJD7":[function(require,module,exports) {
 const data = [
     {
         name: [
@@ -584,7 +584,7 @@ const data = [
           <li>\u{421}\u{43E}\u{437}\u{434}\u{430}\u{439} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{44E} \u{441} \u{432}\u{43E}\u{437}\u{43C}\u{43E}\u{436}\u{43D}\u{43E}\u{441}\u{442}\u{44C}\u{44E} \u{43A}\u{43B}\u{438}\u{43A}\u{430} \u{43F}\u{43E} \u{435}\u{451} \u{44D}\u{43B}\u{435}\u{43C}\u{435}\u{43D}\u{442}\u{430}\u{43C} \u{438} \u{43F}\u{440}\u{43E}\u{441}\u{43C}\u{43E}\u{442}\u{440}\u{430} \u{43F}\u{43E}\u{43B}\u{43D}\u{43E}\u{440}\u{430}\u{437}\u{43C}\u{435}\u{440}\u{43D}\u{43E}\u{433}\u{43E} \u{438}\u{437}\u{43E}\u{431}\u{440}\u{430}\u{436}\u{435}\u{43D}\u{438}\u{44F} \u{432} \u{43C}\u{43E}\u{434}\u{430}\u{43B}\u{44C}\u{43D}\u{43E}\u{43C} \u{43E}\u{43A}\u{43D}\u{435}.</li>
           <li> \u{41F}\u{43E}\u{441}\u{43C}\u{43E}\u{442}\u{440}\u{438} \u{434}\u{435}\u{43C}\u{43E} \u{432}\u{438}\u{434}\u{435}\u{43E} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{438}.</li>
           <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
-          <li><a href='./01-gallery.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
+          <li><a href='../01-gallery.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
         </ul>`
         ]
     },
@@ -599,7 +599,7 @@ const data = [
           <li>\u{41F}\u{43E}\u{441}\u{43C}\u{43E}\u{442}\u{440}\u{438} \u{434}\u{435}\u{43C}\u{43E} \u{432}\u{438}\u{434}\u{435}\u{43E} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{438} \u{441} \u{43F}\u{43E}\u{434}\u{43A}\u{43B}\u{44E}\u{447}\u{435}\u{43D}\u{43D}\u{43E}\u{439} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{43E}\u{439}.</li>
           <li>\u{41F}\u{43E}\u{441}\u{43B}\u{435} \u{447}\u{435}\u{433}\u{43E} \u{432}\u{441}\u{442}\u{430}\u{432}\u{438}\u{442} \u{432}\u{441}\u{435} li \u{437}\u{430} \u{43E}\u{434}\u{43D}\u{443} \u{43E}\u{43F}\u{435}\u{440}\u{430}\u{446}\u{438}\u{44E} \u{432} \u{441}\u{43F}\u{438}\u{441}\u{43E}\u{43A} ul#ingredients.</li>
           <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
-          <li><a href='./02-video.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
+          <li><a href='../02-video.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
         </ul>`
         ]
     },
@@ -614,7 +614,7 @@ const data = [
           <li>\u{41F}\u{43E}\u{441}\u{43C}\u{43E}\u{442}\u{440}\u{438} \u{434}\u{435}\u{43C}\u{43E} \u{432}\u{438}\u{434}\u{435}\u{43E} \u{440}\u{430}\u{431}\u{43E}\u{442}\u{44B} \u{433}\u{430}\u{43B}\u{435}\u{440}\u{435}\u{438} \u{441} \u{43F}\u{43E}\u{434}\u{43A}\u{43B}\u{44E}\u{447}\u{435}\u{43D}\u{43D}\u{43E}\u{439} \u{431}\u{438}\u{431}\u{43B}\u{438}\u{43E}\u{442}\u{435}\u{43A}\u{43E}\u{439}.</li>
           <li>\u{41F}\u{43E}\u{441}\u{43B}\u{435} \u{447}\u{435}\u{433}\u{43E} \u{432}\u{441}\u{442}\u{430}\u{432}\u{438}\u{442} \u{432}\u{441}\u{435} li \u{437}\u{430} \u{43E}\u{434}\u{43D}\u{443} \u{43E}\u{43F}\u{435}\u{440}\u{430}\u{446}\u{438}\u{44E} \u{432} \u{441}\u{43F}\u{438}\u{441}\u{43E}\u{43A} ul#ingredients.</li>
           <li>\u{41A}\u{43E}\u{434} \u{43E}\u{442}\u{444}\u{43E}\u{440}\u{43C}\u{430}\u{442}\u{438}\u{440}\u{43E}\u{432}\u{430}\u{43D} Prettier</li>
-          <li><a href='./03-feedback.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
+          <li><a href='../03-feedback.html'>\u{41F}\u{435}\u{440}\u{435}\u{439}\u{442}\u{438} \u{43D}\u{430} \u{441}\u{442}\u{440}\u{430}\u{43D}\u{438}\u{446}\u{443} \u{432}\u{44B}\u{43F}\u{43E}\u{43B}\u{43D}\u{435}\u{43D}\u{438}\u{44F} \u{437}\u{430}\u{434}\u{430}\u{43D}\u{438}\u{44F}</a></li>
         </ul>`
         ]
     }
@@ -630,5 +630,5 @@ function handleClickTab(e) {
     tabContent.innerHTML = data[e.target.dataset.number].name;
 }
 
-},{}]},["chmSq","b9BDZ"], "b9BDZ", "parcelRequire7f96")
+},{}]},["6kc6j","1uJD7"], "1uJD7", "parcelRequire7f96")
 
