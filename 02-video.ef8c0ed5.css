@@ -1,0 +1,8 @@
+body {
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 30px;
+  display: flex;
+}
+
