@@ -18,7 +18,7 @@ gallery.addEventListener('click', onCardOpen);
 
 // Создание разметки
 function createMarkup(array) {
-  return array.map(({ original, preview, description } = element) => {
+  return array.map(({ original, preview, description }) => {
     return `<li class='gallery__item'>
   <a class='gallery__link' href='${original}'>
     <img

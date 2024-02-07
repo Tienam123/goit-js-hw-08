@@ -23,7 +23,7 @@
 
 # Задание 1 - галерея изображений
 Создай галерею с возможностью клика по её элементам и просмотра полноразмерного изображения в модальном окне. Посмотри демо видео работы галереи.[Video](https://user-images.githubusercontent.com/17479434/127711719-4e293f5b-fbaa-4851-8671-fc841963d961.mp4)
-Выполняй это задание в файлах <span style="display:inline-block;padding:2px;border-radius:4px;color:black;background-color:#f6f7f8">01-gallery.html</span> и <span style="display:inline-block;padding:2px;border-radius:4px;color:black;background-color:#f6f7f8"> 01-gallery.js </span> Разбей его на несколько подзадач:
+Выполняй это задание в файлах <span style="display:inline-block;padding:2px;border-radius:4px;color:black;background-color:#f6f7f8">01-gallery.html</span> и <span style="display:inline-block;padding:2px;border-radius:4px;color:black;background-color:#f6f7f8"> gallery.js </span> Разбей его на несколько подзадач:
 * Создание и рендер разметки по массиву данных <span style="display:inline-block;padding:2px;border-radius:4px;color:black;background-color:#f6f7f8">01-gallery.html</span> и <span style="display:inline-block;padding:2px;border-radius:4px;color:black;background-color:#f6f7f8"> galleryItems </span> и предоставленному шаблону элемента галереи.
 * Реализация делегирования на <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">ul.gallery</span>  и получение <span style="display:inline-block;border-radius:4px;color:black;background-color:#f6f7f8">url</span> большого изображения.
 * Подключение скрипта и стилей библиотеки модального окна [basicLightbox](https://basiclightbox.electerious.com/).
