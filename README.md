@@ -44,21 +44,6 @@ markdown
 
 Добавь закрытие модального окна по нажатию клавиши <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">Escape</span>. Сделай так, чтобы прослушивание клавиатуры было только пока открыто модальное окно. У библиотеки [basicLightbox](https://basiclightbox.electerious.com/) есть метод для программного закрытия модального окна.
 
-# Задание 2 - библиотека <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">SimpleLightbox</span>  
-Сделай такую же галерею как в первом задании, но используя библиотеку  SimpleLightbox[SimpleLightbox](https://simplelightbox.com/), которая возьмет на себя обработку кликов по изображениям, открытие и закрытие модального окна, а также пролистывание изображений при помощи клавиатуры. Посмотри демо видео работы галереи с подключенной библиотекой. [Video](https://user-images.githubusercontent.com/17479434/127714821-4b7527c8-01db-42d3-83f0-8c1578561982.mp4)  
-  
-
-Необходимо немного изменить разметку карточки галереи, используй этот шаблон.  
-
-![](assets/349672384.png)  
-
-Выполняй это задание в файлах <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">02-lightbox.html</span>  и <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">02-lightbox.js</span>. Разбей его на несколько подзадач:
-* Создание и рендер разметки по массиву данных <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">galleryItems</span> и предоставленному шаблону элемента галереи. Используй готовый код из первого задания.
-* Подключение скрипта и стилей библиотеки используя [CDN сервис cdnjs](https://cdnjs.com/libraries/simplelightbox). Необходимо добавить ссылки на два файла: <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">simple-lightbox.min.js</span> и <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">simple-lightbox.min.css</span>.
-* Инициализация библиотеки после того как элементы галереи созданы и добавлены в <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">ul.gallery</span>. Для этого ознакомься с документацией [SimpleLightbox](https://simplelightbox.com/) - в первую очередь секции «Usage» и «Markup».
-* Посмотри в документации секцию «Options» и добавь отображение подписей к изображениям из атрибута <span style="display:inline-block;padding:1px;border-radius:4px;color:black;background-color:#f6f7f8">alt</span>. Пусть подпись будет снизу и появляется через 250 миллисекунд после открытия изображения.
-
-
 
 
 
