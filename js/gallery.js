@@ -4,7 +4,6 @@ const gallery = document.querySelector('.gallery');
 
 gallery.insertAdjacentHTML('afterbegin', createMarkup(images));
 
-
 const instance = basicLightbox.create(`
     <img src='' width='800' height='600'>
 `, {
